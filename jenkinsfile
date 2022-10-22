@@ -7,7 +7,7 @@ pipeline {
   }
 
   stages {
-    stage("Install and test") {
+    stage("Install and test PHP") {
       agent {
           docker {
             image 'nginx:1.17.8-alpine'
